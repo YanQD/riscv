@@ -308,10 +308,10 @@ impl Hcounteren {
         self.bits.set_bit(31, val);
     }
 }
-read_csr_as!(Hcounteren, 3602, __read_hcounteren);
-write_csr!(3602, __write_hcounteren);
-set!(3602, __set_hcounteren);
-clear!(3602, __clear_hcounteren);
+read_csr_as!(Hcounteren, 1542, __read_hcounteren);
+write_csr!(1542, __write_hcounteren);
+set!(1542, __set_hcounteren);
+clear!(1542, __clear_hcounteren);
 // bit ops
 set_clear_csr!(
     ///
